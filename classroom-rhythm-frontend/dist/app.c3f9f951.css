@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.bar-line {
+	border-left: 3px solid #222;
+}
+
+.beat-line {
+	border-bottom: 3px solid #222;
+	cursor: pointer;
+	margin: 1em;
+	padding: 3em;
+}
+
+.beat-line:hover {
+	background-color: yellow;
+	/*border-bottom: 3px dashed #222;*/
+}
+
+button {
+	background-color: teal;
+	color: white;
+}
+
+.choice-container {
+	background-color: #eee;
+	display: flex;
+	font-family: sans-serif;
+	justify-content: space-around;
+	padding: 2em;
+}
+
+.choice {
+	cursor: pointer;
+}
+
+.choice:hover {
+	border: 3px solid yellow;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: auto auto 3fr 1fr;
+}
+
+.double-bar-line {
+	display: flex;
+	float: right;
+}
+
+.dbl-2nd {
+	border-left: .3em solid #222;	
+	margin-left: .25em;
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+	padding: .5em;
+	font-family: sans-serif;	
+	color: teal;
+}
+
+.measure {
+	display: flex;
+	margin-left: 4rem;
+}
+
+.meter {
+	display: flex;
+	flex-direction: column;
+	float: left;
+	margin-left: .25em;
+	font-family: serif;
+	font-size: 3.5rem;
+	font-weight: 700;
+}
+
+.nav__selections{
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+.nav__selections li{
+	font-family: serif;
+	font-size: 2rem;
+	font-weight: 700;
+	list-style-type: none;
+	margin-left: 2rem;
+}
+
+.nav__selections li:hover{
+	background-color: #CCC;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .5s;
+}
+
+
+/*OPTIONS MODAL*/
+
+.modal-content-columns {
+	display: flex;
+	justify-content: space-around;
+}
+
+.options-modal {
+	background-color: rgba(0,128,128,0.4);
+	color: white;
+	display: none; 
+  	position: fixed; 
+  	z-index: 1;
+  	left: 5%;
+  	top: 5%;
+ 	width: 80%;
+  	height: 80%; 
+  	font-family: sans-serif;
+}
+
+.options-modal-close {
+	border: solid .05em teal;
+  	border-radius: 30%;
+	color: #aaa;
+	cursor: pointer;
+  	float: right;
+  	font-size: 1.25rem;
+  	font-weight: bold;
+  	margin-right: 5em;
+  	padding: .25em;
+}
+
+.options-modal-close:hover,
+.options-modal-close:focus {
+  color: teal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.options-modal-content {
+  background-color: #fefefe;
+  color: black;
+  margin: 1% auto;
+  padding: 3em;
+  height: 95%;
+  width: 95%;
+}
+
+.options-modal-content h2 {
+	margin-left: 45%;
+	margin-bottom: 2rem;
+}
+
+.options-modal-content p {
+	margin-bottom: 1rem;
+}
+
+.options-group {
+	margin-bottom: 1.5em;
+}
+
+.options-group input, .column-two input {
+	cursor: pointer;
+}
+
+.options-group label {
+	cursor: pointer;
+}
+
+
+.work-area {
+	margin-top: 3em;
+	max-width: 1024px;
+}
+
+/*# sourceMappingURL=/app.c3f9f951.css.map */
